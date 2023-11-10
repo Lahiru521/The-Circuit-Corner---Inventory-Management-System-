@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="460.0" prefWidth="780.0" style="-fx-background-color: #17434a;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.login.New">
+    <children>
+        <Pane layoutX="562.0" layoutY="374.0" prefHeight="246.0" prefWidth="199.0" style="-fx-background-color: #ff6699; -fx-background-radius: 35; -fx-rotate: 45;" />
+        <Pane layoutX="530.0" layoutY="309.0" prefHeight="91.0" prefWidth="246.0" style="-fx-background-color: white; -fx-background-radius: 35; -fx-rotate: -78;" />
+        <Pane layoutX="665.0" layoutY="233.0" prefHeight="187.0" prefWidth="220.0" style="-fx-background-color: orange; -fx-background-radius: 40; -fx-rotate: 45;" />
+      <Button layoutX="636.0" layoutY="91.0" mnemonicParsing="false" onAction="#BacktoMain" prefHeight="30.0" prefWidth="86.0" style="-fx-background-color: #ff6699; -fx-background-radius: 10;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="636.0" layoutY="153.0" mnemonicParsing="false" onAction="#viewItemsDetails" prefHeight="30.0" prefWidth="86.0" style="-fx-background-color: #ff6699; -fx-background-radius: 10;" text="View" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <TableView fx:id="tableView" layoutX="14.0" layoutY="38.0" prefHeight="315.0" prefWidth="576.0">
+        <columns>
+          <TableColumn fx:id="indexColumn" prefWidth="75.0" text="Index" />
+          <TableColumn fx:id="nameColumn" prefWidth="75.0" text="Name" />
+            <TableColumn fx:id="brandNameColumn" prefWidth="75.0" text="Brand Name" />
+            <TableColumn fx:id="priceColumn" prefWidth="75.0" text="Price" />
+            <TableColumn fx:id="quantityColumn" prefWidth="75.0" text="Quantity" />
+            <TableColumn fx:id="categoryColumn" prefWidth="75.0" text="Category" />
+            <TableColumn fx:id="purchasedDateColumn" prefWidth="112.0" text="Purchased Date" />
+        </columns>
+      </TableView>
+      <Label fx:id="validationLabel" layoutX="4.0" layoutY="391.0" prefHeight="41.0" prefWidth="508.0" textFill="#fff600">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Label>
+    </children>
+</AnchorPane>

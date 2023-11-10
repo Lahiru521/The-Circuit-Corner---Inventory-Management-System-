@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="460.0" prefWidth="780.0" style="-fx-background-color: #17434a;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.login.New">
+    <children>
+        <Pane layoutX="562.0" layoutY="374.0" prefHeight="246.0" prefWidth="199.0" style="-fx-background-color: #ff6699; -fx-background-radius: 35; -fx-rotate: 45;" />
+        <Pane layoutX="500.0" layoutY="306.0" prefHeight="121.0" prefWidth="250.0" style="-fx-background-color: white; -fx-background-radius: 35; -fx-rotate: -78;" />
+        <Pane layoutX="665.0" layoutY="233.0" prefHeight="187.0" prefWidth="220.0" style="-fx-background-color: orange; -fx-background-radius: 40; -fx-rotate: 45;" />
+      <Button layoutX="350.0" layoutY="193.0" mnemonicParsing="false" onAction="#saveItemsToFile" prefHeight="30.0" prefWidth="95.0" style="-fx-background-color: ff3385; -fx-background-radius: 10;" text="Click Me !!" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="4.0" layoutY="85.0" prefHeight="20.0" prefWidth="772.0" text="Click This Button To Save Items to Text File" textAlignment="RIGHT" textFill="#fff600">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="validationLabel" alignment="CENTER" layoutY="325.0" prefHeight="42.0" prefWidth="521.0" textFill="#fff600">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="51.0" layoutY="374.0" mnemonicParsing="false" onAction="#BacktoMain" prefHeight="30.0" prefWidth="86.0" style="-fx-background-color: ff3385; -fx-background-radius: 10;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
